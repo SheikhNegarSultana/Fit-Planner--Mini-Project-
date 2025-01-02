@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Morning Yoga",
+      "description": "A gentle sequence to kickstart your day with energy.",
+      "image": "https://i.ibb.co.com/h1jxj7T/pexels-mart-production-7880156.jpg",
+      "duration": "30 minutes",
+      "level": "Beginner"
+    },
+    {
+      "id": 2,
+      "title": "Cardio Blast",
+      "description": "High-intensity cardio exercises to burn calories fast.",
+      "image": "https://i.ibb.co.com/dBFMmCM/pexels-willpicturethis-1954524.jpg",
+      "duration": "45 minutes",
+      "level": "Intermediate"
+    },
+    {
+      "id": 3,
+      "title": "Strength Training",
+      "description": "Build muscle and strength with focused weight training.",
+      "image": "https://i.ibb.co.com/c6cTDn9/pexels-victorfreitas-791763.jpg",
+      "duration": "60 minutes",
+      "level": "Advanced"
+    }
+  ]
+  

@@ -1,12 +1,13 @@
 import './App.css'
+import HomePage from './Pages/HomePage/HomePage'
 
 function App() {
 
   return (
     <>
       
-      <h1 className=' text-lg'>Fit Plan</h1>
-     
+      
+      <HomePage></HomePage>
       
     </>
   )

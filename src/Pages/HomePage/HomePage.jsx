@@ -6,20 +6,20 @@ import NavBar from '../../Components/NavBar/NavBar';
 const HomePage = () => {
     const slider = (
         <AwesomeSlider className='h-[32rem]'>
-            <div data-src="https://i.ibb.co.com/HPzQYgX/pexels-823sl-2294361.jpg">
+            <div data-src="https://i.ibb.co.com/mq8rJ5Z/pexels-mart-production-8032958.jpg">
                 <div className="absolute bottom-5 left-5 bg-black bg-opacity-60 text-white p-4 rounded-lg w-[80%] md:w-auto ">
                     <h2 id='roboto-slab' className="text-xl font-semibold mb-[0.78rem] md:mb-[1rem] ">Stay Consistent</h2>
                     <p id='roboto-slab' className="text-sm">Consistency is key to achieving your fitness goals. Make a schedule and stick to it!</p>
                 </div>
             </div>
             
-            <div data-src="https://i.ibb.co.com/7YhLhXX/pexels-ivan-samkov-4164512.jpg">
+            <div data-src="https://i.ibb.co.com/8bpdN85/pexels-ketut-subiyanto-4853115.jpg">
                 <div className="absolute bottom-5 left-5 bg-black bg-opacity-60 text-white p-4 rounded-lg">
                     <h2 id='roboto-slab' className=" text-xl font-semibold mb-[0.78rem] md:mb-[1rem]">Hydrate Properly</h2>
                     <p id='roboto-slab'  className=" text-sm">Keep your body hydrated by drinking enough water throughout the day, especially during workouts.</p>
                 </div>
             </div>
-            <div data-src="https://i.ibb.co.com/YbHNLVQ/pexels-jenna-hamra-248942-1305063.jpg">
+            <div data-src="https://i.ibb.co.com/sK9mrRT/pexels-ivan-samkov-4491286.jpg">
                 <div className="absolute bottom-5 left-5 bg-black bg-opacity-60 text-white p-4 rounded-lg">
                     <h2 id='roboto-slab' className="text-xl font-semibold mb-[0.78rem] md:mb-[1rem]">Balanced Diet</h2>
                     <p id='roboto-slab' className="text-sm ">Fuel your body with a balanced diet rich in vitamins, proteins, and healthy fats to maximize your performance.</p>

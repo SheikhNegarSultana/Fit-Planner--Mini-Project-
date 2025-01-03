@@ -16,10 +16,6 @@ const NavBar = () => {
                 {
                   "name": "Progress",
                   "url": "/progress"
-                },
-                {
-                  "name": "Contact",
-                  "url": "/contact"
                 }
     ]
 

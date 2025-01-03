@@ -54,14 +54,14 @@ const PlanPage = () => {
 
     <div>
             
-        <h1 className=" text-center mt-[2rem] md:mt-[4rem] font-bold text-[2rem] md:text-[4rem]">Choose Your Plan</h1>
-        <h2 className="text-center mb-[2rem] md:mb-[4rem] font-light text-[2rem]">Empower Your Fitness Goals with the Perfect Plan</h2>
+        <h1 className=" text-center mt-[2rem] md:mt-[4rem] font-bold text-[1.8rem] md:text-[4rem]">Choose Your Plan</h1>
+        <h2 className="text-center mb-[2rem] md:mb-[4rem] font-light md:text-[2rem]">Empower Your Fitness Goals with the Perfect Plan</h2>
 
-        <div className=" flex items-center justify-around mb-[8rem]">
+        <div className=" md:flex items-center justify-around mb-[8rem] mx-[2rem] md:mx-auto ">
             {
                 plans.map( item => (
 
-                <div key={item.id}>
+                <div className=" mb-[2rem] md:mb-0" key={item.id}>
 
 {/* Free Plan */}
                     {

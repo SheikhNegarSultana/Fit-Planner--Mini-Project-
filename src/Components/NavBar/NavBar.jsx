@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa"; import { RxCross2 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
 
@@ -37,15 +38,20 @@ const NavBar = () => {
     </div>
 
     <div className=" hidden md:flex justify-between  gap-4">
-        {
-            navs.map( (item , index) => (
-                <div key={index}>
-                <ul>
-                    <a className=" hover:text-cyan-500 font-semibold" href={item.url}>{item.name}</a>
-                </ul>
-                </div>
-            ))
-        }
+
+
+{
+  navs.map((item, index) => (
+    <ul key={index} className="my-2">
+      <Link className="hover:text-cyan-300" to={item.url}>
+        {item.name}
+      </Link>
+    </ul>
+  ))
+}
+
+
+
     </div> 
         
     <ul className={`z-50 md:hidden flex flex-col items-center bg-slate-500 p-4 text-white font-extrabold fixed top-[4rem] left-0 w-[50%] transition-transform duration-500 ${open ? 'translate-y-4' : '-translate-y-[40rem]'}`}> 
